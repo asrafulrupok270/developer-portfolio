@@ -22,16 +22,20 @@
  }
  .width-half{
     width: 50%;
-   
+    
+     
  }
  .banner{
-    display: flex;
+   
     padding:50px;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 120px;
  }
  .width-half img {
      width: 80%;
+ 
   
  }
  .hire-me{
@@ -43,3 +47,52 @@
   border-radius: 5px;
   
  }
+ .dream-big{
+    display: flex;
+    padding:  50px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 120px;
+
+ }
+ .container{
+   width: 50%;
+   
+ }
+ .developer{
+    padding:50px;
+   
+    background-repeat: no-repeat;
+    display: flex;
+   
+ }
+ .experience-area{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 5%;
+   border-radius: 10px;
+   padding: 15px;
+   margin-bottom: 120px;
+
+ }
+ .experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:  left;
+ }
+ #border-t {
+    border-left: 7px solid tomato;
+ }
+ #border-b{
+    border-left: 7px solid blue;
+ }
+ footer{
+   text-align: center;
+   text-transform: capitalize;
+   font-weight: 700;
+ }
+   
+ 
+
